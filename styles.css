@@ -1,0 +1,117 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+/* Navigation */
+.navbar-nav .nav-link {
+  margin-right: 1rem;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #007bff;
+}
+
+/* Hero Section (#why) */
+#why {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Services Section */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Core Values Section */
+#values i {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Contact & Join Forms */
+input.form-control,
+textarea.form-control {
+  border-radius: 0.375rem;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  transition: border-color 0.3s ease;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+  border-color: #000000;
+  outline: none;
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+}
+
+form .btn {
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+}
+
+/* Join Section Background */
+#join {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  font-size: 0.875rem;
+  background-color: #222;
+  color: #fff;
+}
+
+/* SVG Wave */
+svg {
+  display: block;
+  width: 100%;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
